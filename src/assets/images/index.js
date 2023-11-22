@@ -12,6 +12,16 @@ import Photo4 from './4.png';
 import Photo5 from './5.png';
 import Photo6 from './6.png';
 import Globus from './globus.png';
+import LeftIcon from './left.svg';
+import RightIcon from './right.svg';
+import Globe from './globe.png';
+import Search from './search.png';
+import Security from './security.png';
+import Dashboard from './dashboard.png';
+import Design from './design.png';
+import ManImg from './man.png';
+import WomanImg from './woman.png';
+import Woman2Ing from './woman2.png';
 
 export {
   BooksPhoto,
@@ -28,4 +38,14 @@ export {
   Photo5,
   Photo6,
   Globus,
+  LeftIcon,
+  RightIcon,
+  Globe,
+  Search,
+  Security,
+  Dashboard,
+  Design,
+  ManImg,
+  Woman2Ing,
+  WomanImg,
 };
