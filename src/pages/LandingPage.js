@@ -6,6 +6,8 @@ import { Sliders } from '../components/slider/Slider';
 import { Videos } from '../components/usefulVideo/Videos';
 import { LearnMore } from '../components/learnMore/LearnMore';
 import { Quetion } from '../components/quetions/Quetion';
+import { Partners } from '../components/partners/Partners';
+import { Footer } from '../components/footer/Footer';
 
 export const LandingPage = () => {
   return (
@@ -17,6 +19,8 @@ export const LandingPage = () => {
       <Videos />
       <LearnMore />
       <Quetion />
+      <Partners />
+      <Footer />
     </div>
   );
 };

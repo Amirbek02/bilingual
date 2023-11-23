@@ -6,5 +6,18 @@ import { ReactComponent as Extensive } from './extensive.svg';
 import { ReactComponent as PhoneIcon } from './phone.svg';
 import { ReactComponent as SpeechIcon } from './speech.svg';
 import { ReactComponent as Tutoring } from './tutoring.svg';
+import { ReactComponent as PlusIcon } from './plus.svg';
+import { ReactComponent as UnionIcon } from './union.svg';
 
-export { Logo, GoogleIcon, CloseIcon, FullLogo, Extensive, PhoneIcon, SpeechIcon, Tutoring };
+export {
+  Logo,
+  GoogleIcon,
+  CloseIcon,
+  FullLogo,
+  Extensive,
+  PhoneIcon,
+  SpeechIcon,
+  Tutoring,
+  PlusIcon,
+  UnionIcon,
+};
