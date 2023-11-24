@@ -22,6 +22,11 @@ import Design from './design.png';
 import ManImg from './man.png';
 import WomanImg from './woman.png';
 import Woman2Ing from './woman2.png';
+import Adama from './adama.png';
+import Donit from './dekalb.png';
+import Dekalb from './dekalb.png';
+import Bas from './bas.png';
+import Lidea from './lidea.png';
 
 export {
   BooksPhoto,
@@ -48,4 +53,9 @@ export {
   ManImg,
   Woman2Ing,
   WomanImg,
+  Adama,
+  Donit,
+  Dekalb,
+  Bas,
+  Lidea,
 };

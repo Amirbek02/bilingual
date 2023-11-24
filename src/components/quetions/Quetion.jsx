@@ -1,12 +1,15 @@
 import { styled } from '@mui/material';
 import React from 'react';
-import { ManImg, Woman2Ing, WomanImg } from '../../assets/images';
+import { LeftIcon, ManImg, RightIcon, Woman2Ing, WomanImg } from '../../assets/images';
 
 export const Quetion = () => {
   return (
     <Container>
       <Title>Why people love Bilingual</Title>
       <Wrapper>
+        <IconRight>
+          <img src={LeftIcon} alt="" />
+        </IconRight>
         <Item>
           <Img src={ManImg} />
           <Text>
@@ -42,13 +45,19 @@ export const Quetion = () => {
             />
           </svg>
         </Item>
-        <Item>
+        <Item
+          style={{
+            backgroundColor: '#666CA7',
+            height: '38.875rem',
+            margin: '0 1.25rem',
+          }}>
           <Img src={WomanImg} />
-          <Text>
-            Great way to learn a language. Fun, interactive, and engaging. I am enjoying the course
-            immensely and would recommend it to anyone who wishes to learn a second language.
+          <Text style={{ color: '#fff' }}>
+            Bilingual has helped me to get a good grasp of the language in a fun and challenging
+            way. I enjoy the dialogues and scenarios, which include helpful phrases that can be used
+            in various situations.
           </Text>
-          <UserName>- Aibek Atabekov</UserName>
+          <UserName style={{ color: '#fff' }}>- Alina Begishova</UserName>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="98"
@@ -80,10 +89,10 @@ export const Quetion = () => {
         <Item>
           <Img src={Woman2Ing} />
           <Text>
-            Great way to learn a language. Fun, interactive, and engaging. I am enjoying the course
-            immensely and would recommend it to anyone who wishes to learn a second language.
+            I have tried other language apps and found them boring but with Bilingual, it is easy
+            and fun to practice every day.
           </Text>
-          <UserName>- Aibek Atabekov</UserName>
+          <UserName>- Minura Telegenova</UserName>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="98"
@@ -112,13 +121,17 @@ export const Quetion = () => {
             />
           </svg>
         </Item>
+        <IconRight>
+          <img src={RightIcon} alt="" />
+        </IconRight>
       </Wrapper>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="70"
         height="30"
         viewBox="0 0 70 30"
-        fill="none">
+        fill="none"
+        style={{ margin: '2.75rem' }}>
         <rect width="6" height="30" rx="3" transform="matrix(1 0 0 -1 32 30)" fill="#3A10E5" />
         <rect
           width="6"
@@ -157,12 +170,14 @@ export const Quetion = () => {
   );
 };
 
-const Container = styled('div')(() => ({}));
+const Container = styled('div')(() => ({
+  textAlign: 'center',
+}));
 const Title = styled('h2')(() => ({}));
 const Wrapper = styled('div')(() => ({
   display: 'flex',
   justifyContent: 'center',
-  alignContent: 'center',
+  alignItems: 'center',
 }));
 const Item = styled('div')(() => ({
   borderRadius: '2.5rem',
@@ -173,10 +188,26 @@ const Item = styled('div')(() => ({
   alignItems: 'center',
   width: '22.875rem',
   height: '35.25rem',
+  padding: '2.5rem 1.88rem',
 }));
 const Img = styled('img')(() => ({}));
-const Text = styled('p')(() => ({}));
-const UserName = styled('h4')(() => ({}));
+const Text = styled('p')(() => ({
+  margin: '2.47rem 0 1.5rem',
+}));
+const UserName = styled('h4')(() => ({
+  fontSize: '1rem',
+  color: '#3A10E5',
+}));
+const IconRight = styled('div')(() => ({
+  border: '1px solid #3A10E5',
+  borderRadius: '50%',
+  padding: '1.34rem',
+  margin: '2.5rem',
+  display: 'flex',
+  '&:hover': {
+    backgroundColor: '#3A10E5',
+  },
+}));
 // const  = styled('')(() => ({}));
 // const = styled('')(() => ({}));
 // const = styled('')(() => ({}));

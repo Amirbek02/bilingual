@@ -113,7 +113,7 @@ const MainTitle = styled('h1')(() => ({
   width: '39.6875rem',
   zIndex: 99,
 }));
-const Title = styled('h2')(() => ({
+const Title = styled('h3')(() => ({
   fontSize: '3.75rem',
   color: '#C93D7D',
   fontWeight: '900',
