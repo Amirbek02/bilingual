@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from '../header/header';
 import { styled } from '@mui/material';
-import { BooksPhoto, FounPhoto, HatPhoto } from '../../assets/images';
+import { BooksPhoto, FounPhoto, HatPhoto } from '../../../assets/images';
 
 export const Main = () => {
   return (

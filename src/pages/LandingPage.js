@@ -1,17 +1,17 @@
 import React from 'react';
-import { Main } from '../components/main/Main';
-import { Result } from '../components/main/Result';
-import { OurTeam } from '../components/ourTeam/OurTeam';
-import { Sliders } from '../components/slider/Slider';
-import { Videos } from '../components/usefulVideo/Videos';
-import { LearnMore } from '../components/learnMore/LearnMore';
-import { Quetion } from '../components/quetions/Quetion';
-import { Partners } from '../components/partners/Partners';
-import { Footer } from '../components/footer/Footer';
+import { Main } from '../components/landingComponents/main/Main';
+import { Result } from '../components/landingComponents/main/Result';
+import { OurTeam } from '../components/landingComponents/ourTeam/OurTeam';
+import { Sliders } from '../components/landingComponents/slider/Slider';
+import { Videos } from '../components/landingComponents/usefulVideo/Videos';
+import { LearnMore } from '../components/landingComponents/learnMore/LearnMore';
+import { Quetion } from '../components/landingComponents/quetions/Quetion';
+import { Partners } from '../components/landingComponents/partners/Partners';
+import { Footer } from '../components/landingComponents/footer/Footer';
 
 export const LandingPage = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: '#fef5e8' }}>
       <Main />
       <Result />
       <OurTeam />

@@ -1,6 +1,6 @@
 import { styled } from '@mui/material';
 import React from 'react';
-import { Adama, Bas, Dekalb, Donit, Lidea } from '../../assets/images';
+import { Adama, Bas, Dekalb, Donit, Lidea } from '../../../assets/images';
 
 export const Partners = () => {
   return (
