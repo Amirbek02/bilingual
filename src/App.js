@@ -1,13 +1,14 @@
 // import { SignInPage } from './pages/SignInPage';
 
 import { styled } from '@mui/material';
-import { LandingPage } from './pages/LandingPage';
+// import { LandingPage } from './pages/LandingPage';
 import './App.css';
+import { HomePage } from './pages/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
+      <HomePage />
     </div>
   );
 }

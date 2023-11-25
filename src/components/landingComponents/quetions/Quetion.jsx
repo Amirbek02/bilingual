@@ -1,6 +1,6 @@
 import { styled } from '@mui/material';
 import React from 'react';
-import { LeftIcon, ManImg, RightIcon, Woman2Ing, WomanImg } from '../../assets/images';
+import { LeftIcon, ManImg, RightIcon, Woman2Ing, WomanImg } from '../../../assets/images';
 
 export const Quetion = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globus, LeftIcon, RightIcon } from '../../assets/images';
+import { Globus, LeftIcon, RightIcon } from '../../../assets/images';
 import { styled } from '@mui/material';
 
 export const Sliders = () => {

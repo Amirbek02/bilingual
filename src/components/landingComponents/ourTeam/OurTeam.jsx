@@ -1,6 +1,6 @@
 import { styled } from '@mui/material';
 import React from 'react';
-import { Photo1, Photo2, Photo3, Photo4, Photo5, Photo6 } from '../../assets/images';
+import { Photo1, Photo2, Photo3, Photo4, Photo5, Photo6 } from '../../../assets/images';
 
 const mentors = [
   {

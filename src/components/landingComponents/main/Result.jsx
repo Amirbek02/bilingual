@@ -1,7 +1,7 @@
 import React from 'react';
-import { EnglishBooks, GlobalPhoto, MessogePhoto, MoneyPhoto } from '../../assets/images';
+import { EnglishBooks, GlobalPhoto, MessogePhoto, MoneyPhoto } from '../../../assets/images';
 import { styled } from '@mui/material';
-import { Extensive, PhoneIcon, SpeechIcon, Tutoring } from '../../assets/icons';
+import { Extensive, PhoneIcon, SpeechIcon, Tutoring } from '../../../assets/icons';
 
 export const Result = () => {
   return (

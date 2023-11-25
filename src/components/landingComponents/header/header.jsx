@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@mui/material';
-import { FullLogo } from '../../assets/icons';
+import { FullLogo } from '../../../assets/icons';
 
 export const Header = () => {
   return (
