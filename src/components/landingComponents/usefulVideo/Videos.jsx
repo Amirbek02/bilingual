@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MyVideo } from '../../assets/videos/index';
+import { MyVideo } from '../../../assets/videos/index';
 import { styled } from '@mui/material';
 
 export const Videos = () => {

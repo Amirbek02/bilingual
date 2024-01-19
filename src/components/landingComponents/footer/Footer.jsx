@@ -1,5 +1,5 @@
 import React from 'react';
-import { PlusIcon, UnionIcon } from '../../assets/icons';
+import { PlusIcon, UnionIcon } from '../../../assets/icons';
 import { styled } from '@mui/material';
 
 export const Footer = () => {

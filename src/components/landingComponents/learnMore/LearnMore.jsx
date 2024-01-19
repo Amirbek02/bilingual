@@ -1,6 +1,6 @@
 import { styled } from '@mui/material';
 import React from 'react';
-import { BooksPhoto, Dashboard, Design, Globe, Search, Security } from '../../assets/images';
+import { BooksPhoto, Dashboard, Design, Globe, Search, Security } from '../../../assets/images';
 
 export const LearnMore = () => {
   return (
