@@ -13,25 +13,6 @@ function App() {
     <div className="App">
       <MyResult />
       <LandingPage />
-
-      {/* <div class="header">
-        <div class="container">
-          <div class="header-title">
-            <img
-              width="174px"
-              height="42px"
-              class="header_img"
-              src="./img/Group.png"
-              alt=""
-            />
-          </div>
-          <div class="header-link">
-            <p class="header_p">TESTS</p>
-            <p>MY RESULTS</p>
-            <button class="header_btn">LOG OUT</button>
-          </div>
-        </div> */}
-      {/* </div> */}
     </div>
   );
 }
