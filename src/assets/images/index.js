@@ -27,6 +27,9 @@ import Donit from './dekalb.png';
 import Dekalb from './dekalb.png';
 import Bas from './bas.png';
 import Lidea from './lidea.png';
+import TestIcon from './test.png';
+import Elephen from './elephen.png';
+import Saying from './saying.svg';
 
 export {
   BooksPhoto,
@@ -58,4 +61,7 @@ export {
   Dekalb,
   Bas,
   Lidea,
+  TestIcon,
+  Elephen,
+  Saying,
 };
