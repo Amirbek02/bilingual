@@ -8,11 +8,14 @@ import CheckingYour from "./components/checkingYour/CheckingYour";
 import HomePage1 from "./components/homePage1/HomePage1";
 import HomePage2 from "./components/homePage2/HomePage2";
 import { FullLogo } from "./assets/icons";
+import Select1 from "./components/select1/Select1";
+import Select2 from "./components/select2/Select2";
+import Ansver7 from "./components/ansver7/Ansver7";
+import TypeHear from "./components/typeHear/TypeHear";
 function App() {
   return (
     <div className="App">
-      <MyResult />
-      <LandingPage />
+      <Ansver7 />
     </div>
   );
 }
