@@ -1,7 +1,7 @@
 import { styled } from "@mui/material";
 import React from "react";
 
-export const Ansver7 = () => {
+export const Select8 = () => {
   return (
     <div
       style={{
@@ -20,7 +20,7 @@ export const Ansver7 = () => {
       </div>
       <Container>
         <ContainerInner>
-          <Title>0:00</Title>
+          <Title>0:05</Title>
           <Imager>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,15 +54,39 @@ export const Ansver7 = () => {
               </Comp>
             </Draiver>
             <Texty>
-              <Testaa>
-                click and drad text to highlight the answer to the question
-                below
-              </Testaa>
-              <What>
-                what did residents think couild happen with new bridge?
-              </What>
-              <Inputer placeholder="Highlight text in the passage to set an answer" />
-              <Buttton>NEXT</Buttton>
+              <Textt>
+                <p>Select the best title for the passage</p>
+              </Textt>
+              <Knopka>
+                <Radio type="radio" />
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have.
+                </p>
+              </Knopka>
+              <Knopka>
+                <Radio type="radio" />
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have.
+                </p>
+              </Knopka>
+              <Knopka>
+                <Radio type="radio" />
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have. Sed ut perspiciatis unde
+                  omnis iste natus erro.
+                </p>
+              </Knopka>
+              <Knopka>
+                <Radio type="radio" />
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have.
+                </p>
+              </Knopka>
+              <Buttoncl>NEXT</Buttoncl>
             </Texty>
           </Component>
         </ContainerInner>
@@ -70,7 +94,7 @@ export const Ansver7 = () => {
     </div>
   );
 };
-export default Ansver7;
+export default Select8;
 const Container = styled("div")(() => ({
   display: "flex",
   alignItems: "center",
@@ -100,36 +124,9 @@ const Title = styled("h3")(() => ({
   fontSize: "1.65rem",
   fontWeight: "500",
 }));
-const Inputer = styled("input")(() => ({
-  width: "411px",
-  height: "46px",
-  flexShrink: "0",
-  borderRadius: "8px",
-  border: "1px solid var(--Grey-INPUT, #D4D0D0)",
-  background: "#F7F7F7",
-  padding: "10px",
-}));
-const What = styled("p")(() => ({
-  color: "var(--4C4859, #4C4859)",
-  fontFamily: "DINNextRoundedLTW01-Regular",
-  fontSize: "18px",
-  fontStyle: "normal",
-  fontWeight: "400",
-  lineHeight: "124%",
-  textTransform: "lowercase",
-  margin: "30px 0",
-}));
-const Testaa = styled("p")(() => ({
-  color: "#4C4859",
-  fontFamily: "DINNextRoundedLTW01-Regular",
-  fontSize: "26px",
-  fontWeight: "400",
-  lineHeight: "normal",
-  textTransform: "uppercase",
-}));
 
 const Texty = styled("div")(() => ({
-  margin: "10px",
+  margin: "0 10px",
 }));
 
 const Comp = styled("p")(() => ({
@@ -169,12 +166,29 @@ const Component = styled("div")(() => ({
   margin: "50px 0",
 }));
 const Imager = styled("div")(() => ({}));
-const Buttton = styled("button")(() => ({
-  border: "1px solid black",
-  padding: "10px 15px ",
-  margin: "20px 0",
-  borderRadius: "10px",
-}));
+
 const Put = styled("p")(() => ({
   margin: "10px",
+}));
+const Textt = styled("div")(() => ({
+  fontFamily: "DINNextRoundedLTW01-Regular",
+  fontSize: "26px ",
+  fontStyle: "normal",
+  fontWeight: "400",
+}));
+const Knopka = styled("div")(() => ({
+  display: "flex",
+  width: "411px",
+  height: "auto",
+  border: "1px solid black",
+  borderRadius: "10px",
+  margin: "20px 0",
+  padding: "10px 0 ",
+}));
+const Radio = styled("input")(() => ({
+  margin: "10px",
+}));
+const Buttoncl = styled("button")(() => ({
+  padding: "7px 14px ",
+  borderRadius: "10px ",
 }));
